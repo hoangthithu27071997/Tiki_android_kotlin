@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tiki</string>
+    <string name="label_covenient_service">Dịch vụ tiện ích</string>
+    <string name="label_endow">Các ưu đãi dành cho chủ thẻ ngân hàng</string>
+    <string name="label_cooperate">Ưu đãi và hợp tác</string>
+    <string name="label_sigin">Đăng nhập</string>
+    <string name="label_sigup">Đăng ký</string>
+    <string name="label_login_experience">Đăng nhập để trải nghiệm tốt nhất</string>
+    <string name="label_tiki_deal">Tiki deal</string>
+    <string name="label_key_hot">Từ khóa hot</string>
+    <string name="message_erro_load_key">Có thể bạn chưa truy cập internet, vui lòng thử lại để xem từ khóa Hot</string>
+</resources>

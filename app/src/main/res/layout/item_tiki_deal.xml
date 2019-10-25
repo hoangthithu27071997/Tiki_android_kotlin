@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.adapter.TikiAdapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/Design.Text.bold"
+        android:layout_margin="@dimen/size_10"
+        android:padding="@dimen/size_5"
+        android:text="@string/label_tiki_deal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_14" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_200"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/size_10"
+        android:layout_marginEnd="@dimen/size_10"
+        android:layout_marginBottom="@dimen/size_10"
+        android:src="@drawable/tiki_deal" />
+
+</LinearLayout>

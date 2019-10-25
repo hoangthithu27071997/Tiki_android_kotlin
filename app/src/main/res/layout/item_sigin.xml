@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_10"
+    tools:context=".views.adapter.TikiAdapter">
+
+    <ImageView
+        android:id="@+id/ivAd"
+        android:layout_width="@dimen/size_70"
+        android:layout_height="@dimen/size_70"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/size_10"
+        android:src="@drawable/ic_cart" />
+
+    <TextView
+        android:id="@+id/txtSignIn"
+        style="@style/Design.Text.bold"
+        android:text="@string/label_login_experience"
+        android:layout_marginBottom="@dimen/size_5"
+        android:textSize="@dimen/textSize_14" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/Design.Text.bold"
+        android:layout_height="@dimen/size_40"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginTop="@dimen/size_5"
+        android:background="@drawable/bg_primary"
+        android:minWidth="@dimen/size_120"
+        android:text="@string/label_sigup"
+        android:textColor="@color/white" />
+
+    <Button
+        style="@style/Design.Text.bold"
+        android:layout_height="@dimen/size_40"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginStart="@dimen/size_15"
+        android:layout_marginTop="@dimen/size_5"
+        android:layout_toRightOf="@+id/btnSignUp"
+        android:background="@drawable/bg_red"
+        android:minWidth="@dimen/size_120"
+        android:text="@string/label_sigin"
+        android:textColor="@color/white" />
+</RelativeLayout>

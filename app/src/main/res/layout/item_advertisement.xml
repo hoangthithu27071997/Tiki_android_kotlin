@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_10"
+    tools:context=".views.adapter.TikiAdapter">
+
+    <ImageView
+        android:id="@+id/ivAd"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:src="@drawable/ic_add" />
+
+    <TextView
+        android:id="@+id/txtEndow"
+        style="@style/Design.Text.bold"
+        android:layout_toRightOf="@+id/ivAd"
+        android:padding="@dimen/size_5"
+        android:text="@string/label_cooperate"
+        android:textSize="@dimen/textSize_14" />
+
+    <TextView
+        style="@style/Design.Text.Normal"
+        android:layout_below="@+id/txtEndow"
+        android:layout_toRightOf="@+id/ivAd"
+        android:padding="@dimen/size_5"
+        android:text="@string/label_endow" />
+
+    <ImageView
+        android:layout_width="@dimen/size_30"
+        android:layout_height="@dimen/size_30"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/size_10"
+        android:src="@drawable/ic_arrow" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/txtName"
+        style="@style/Design.Text.Normal"
+        android:layout_margin="@dimen/size_10"
+        android:layout_marginEnd="@dimen/size_10"
+        android:background="?selectableItemBackground"
+        tools:text="Mẹ và bé"/>

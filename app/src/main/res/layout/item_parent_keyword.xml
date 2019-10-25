@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".views.adapter.TikiAdapter">
+
+    <TextView
+        android:id="@+id/txtEndow"
+        style="@style/Design.Text.bold"
+        android:layout_margin="@dimen/size_10"
+        android:layout_toRightOf="@+id/ivAd"
+        android:padding="@dimen/size_5"
+        android:text="@string/label_key_hot"
+        android:textSize="@dimen/textSize_14" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_keyword" />
+</LinearLayout>
